@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <div id="message"></div>
+  </body>
+  <script>
+    var str = 'Required fs-extra';
+    try {
+      require('fs-extra');
+    } catch (e) {
+      str = 'failed to require fs-extra: ' + e.toString();
+    }
+    document.getElementById('message').textContent = str;
+  </script>
+</html>

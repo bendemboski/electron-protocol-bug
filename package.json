@@ -1,0 +1,26 @@
+{
+  "name": "electron-protocol-bug",
+  "version": "1.0.0",
+  "description": "App demoing bug in electron loading index.html via custom protocol",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bendemboski/electron-protocol-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bendemboski/electron-protocol-bug/issues"
+  },
+  "homepage": "https://github.com/bendemboski/electron-protocol-bug#readme",
+  "devDependencies": {
+    "electron": "^1.6.2"
+  },
+  "dependencies": {
+    "electron-protocol-serve": "^1.1.0",
+    "fs-extra": "^2.1.1"
+  }
+}
